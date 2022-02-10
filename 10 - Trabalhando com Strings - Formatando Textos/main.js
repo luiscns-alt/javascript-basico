@@ -9,3 +9,9 @@
 "hello World".trim();
 "hello World".split(" ");
 "h.e.l.l.o. W.o.r.l.d.".split(".");
+
+("McDonald's");
+("McDonald's'");
+("\tEspaço");
+("\nPular linha");
+("\\Barra");
