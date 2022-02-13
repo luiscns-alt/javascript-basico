@@ -8,3 +8,15 @@ var myFunc = function () {
 
 document.querySelector("#myInput").addEventListener("click", myFunc);
 document.querySelector("#myInput").removeEventListener("click", myFunc);
+
+document.querySelector("input").addEventListener("click", function (e) {
+    console.log(e);
+});
+document.querySelector("input").addEventListener("keyup", function (e) {
+    console.log(e);
+});
+document.querySelector("input").addEventListener("keyup", function (e) {
+    if (e.keyCode == 13) {
+        console.log(this.e);
+    }
+});
