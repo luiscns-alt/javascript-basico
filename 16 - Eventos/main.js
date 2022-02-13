@@ -20,3 +20,10 @@ document.querySelector("input").addEventListener("keyup", function (e) {
         console.log(this.e);
     }
 });
+
+setTimeout(function () {
+    console.log("sfsjdkfl");
+}, 2000);
+setInterval(function () {
+    console.log("sfsjdkfl");
+}, 2000);
